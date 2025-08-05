@@ -1,0 +1,44 @@
+***************************************************************************
+* Unzipping *.zip
+***************************************************************************
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+Running: ./p1
+
+Please input name, max health and damage for your fighter character
+Name of Fighter: Max Health of Fighter: Damage of Fighter: 
+Please input name, max health and damage for your orc character
+Name of Orc Character: Max Health of Orc Character: Damage of Orc Character: 
+Character Name: Thor Current Health: 10
+Character Name: Snarl Current Health: 12
+
+Snarl takes 4 damage!
+Thor takes 1 damage!
+
+Character Name: Thor Current Health: 9
+Character Name: Snarl Current Health: 8
+
+Snarl takes 2 damage!
+Thor takes 3 damage!
+
+Character Name: Thor Current Health: 6
+Character Name: Snarl Current Health: 6
+
+
+Thor found,  2  marks
+Snarl found,  2  marks
+10 found,  2  marks
+12 found,  2  marks
+8 found,  2  marks
+9 found,  2  marks
+6 found,  2  marks
+
+
+***************************************************************************
+* Mark: 14/14
+***************************************************************************
+
