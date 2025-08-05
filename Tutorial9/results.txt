@@ -1,0 +1,60 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+Executing: ./test
+Adding 10 dates
+September 1, 2021
+
+September 2, 2021
+
+September 3, 2021
+
+September 4, 2021
+
+September 5, 2021
+
+September 6, 2021
+
+September 7, 2021
+
+September 8, 2021
+
+September 9, 2021
+
+September 10, 2021
+
+Size is 10, correct
+Array is not full, correct
+Remove every second date:
+Size is 5, correct
+September 2, 2021
+
+September 4, 2021
+
+September 6, 2021
+
+September 8, 2021
+
+September 10, 2021
+
+Remove all but 2 dates:
+Printing 2 dates:
+September 8, 2021
+
+September 10, 2021
+
+Dates are correct
+Testing clear
+Size is 0, correct
+Deleting 10 dates
+
+Test passed
+
+
+***************************************************************************
+* Mark: 4/4
+***************************************************************************
+
