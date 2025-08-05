@@ -1,0 +1,18 @@
+Name: Maansinh Jadeja
+Student Number: 101157121
+Source Files: main.cc Album.cc class.py Controller.cc Criteria.cc MediaFactory.cc Song.cc Songify.cc View.cc
+Header Files: defs.h Album.h Array.h Controller.h Criteria.h MediaFactory.h Song.h Songify.h View.h
+
+Purpose of Files:
+	defs.h Controller.h Controller.cc main.cc View.h View.cc class.py
+		To create an tester object files for the executable a3
+
+	defs.h Album.h Album.cc Array.h Criteria.h Criteria.cc MediaFactory.h MediaFactory.cc Song.h Song.cc Songify.h Songify.cc
+		To create the implementation for each of the classes required by the assignment
+
+Compile and Run Instructions:
+                              1. Open gnome-terminal
+                              2. Go to the directory containing the source files and header files
+                              3. type: "make"  to create output file a4
+                              4. type: "./a4" to run the program a4
+                              5. Use numeric commands described in prompt to run tests
