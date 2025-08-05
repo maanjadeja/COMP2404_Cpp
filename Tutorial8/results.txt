@@ -1,0 +1,114 @@
+***************************************************************************
+* Unzipping *.zip
+***************************************************************************
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+Executing: ./test
+This Criteria focuses on matching the artist's of the song, in this case, the artist's name is: Nirvana
+Artist: Nirvana
+Title: You Know You're Right
+Category: Grunge
+Content: yayayaya
+
+Should match
+Matched
+Test passed
+
+This Criteria focuses on matching the artist's of the song, in this case, the artist's name is: Zamphir
+Artist: Nirvana
+Title: You Know You're Right
+Category: Grunge
+Content: yayayaya
+
+Should not match
+Did not match
+Test passed
+
+Testing artist criteria passed
+
+
+Executing: ./test
+This Criteria focuses on matching the categories of the song, in this case, the category is: Grunge
+Artist: Nirvana
+Title: You Know You're Right
+Category: Grunge
+Content: yayayaya
+
+Should match
+Matched
+Test passed
+
+This Criteria focuses on matching the categories of the song, in this case, the category is: Pop
+Artist: Nirvana
+Title: You Know You're Right
+Category: Grunge
+Content: yayayaya
+
+Should not match
+Did not match
+Test passed
+
+Testing category criteria passed
+
+
+Executing: ./test
+This Criteria focuses on matching the artist's of the song, in this case, the artist's name is: Nirvana
+This Criteria focuses on matching the categories of the song, in this case, the category is: Grunge
+Artist: Nirvana
+Title: You Know You're Right
+Category: Grunge
+Content: yayayaya
+
+Should match
+Matched
+Test passed
+
+This Criteria focuses on matching the artist's of the song, in this case, the artist's name is: Nirvana
+This Criteria focuses on matching the categories of the song, in this case, the category is: Rock
+Artist: Nirvana
+Title: You Know You're Right
+Category: Grunge
+Content: yayayaya
+
+Should match
+Matched
+Test passed
+
+This Criteria focuses on matching the artist's of the song, in this case, the artist's name is: Justin Bieber
+This Criteria focuses on matching the categories of the song, in this case, the category is: Grunge
+Artist: Nirvana
+Title: You Know You're Right
+Category: Grunge
+Content: yayayaya
+
+Should match
+Matched
+Test passed
+
+This Criteria focuses on matching the a...
+Executing: ./test
+This Criteria focuses on matching the artist's of the song, in this case, the artist's name is: Nirvana
+
+'Nirvana' found in output, test passed
+
+This Criteria focuses on matching the categories of the song, in this case, the category is: Rock
+
+'Rock' found in output, test passed
+
+This Criteria focuses on matching the artist's of the song, in this case, the artist's name is: Justin Bieber
+This Criteria focuses on matching the categories of the song, in this case, the category is: Grunge
+
+
+'Justin Bieber' and 'Grunge' found in output, test passed
+
+
+
+
+***************************************************************************
+* Mark: 12/12
+***************************************************************************
+

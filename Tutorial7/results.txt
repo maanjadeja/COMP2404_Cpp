@@ -1,0 +1,48 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Find ride test
+
+Executing: ./test
+Correct driver found!
+ID: D2
+Name: Carter
+Rating: 2
+5th Ave and 4th AveCorrect driver found!
+ID: D0
+Name: Elsa
+Rating: 5
+3rd Ave and 4th AveCorrect driver found!
+ID: D4
+Name: Alice
+Rating: 5
+7th Ave and 7th AveTest succeeded, no driver found! 
+
+Test passed
+4 marks
+
+Clear function test
+
+Executing: valgrind ./test
+test
+Print list...
+ID: D6
+Name: Densel
+Rating: 4
+1st Ave and 1st AveID: D5
+Name: Elsa
+Rating: 5
+3rd Ave and 4th Ave
+[93mElsa[0m FOUND, 2 marks
+[93mDensel[0m FOUND, 2 marks
+[93mAll heap blocks were freed -- no leaks are possible[0m FOUND, 2 marks
+
+
+***************************************************************************
+* Mark: 10/10
+***************************************************************************
+
