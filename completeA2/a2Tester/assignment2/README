@@ -1,0 +1,19 @@
+Name: Maansinh Jadeja
+Student Number: 101157121
+Source Files: main.cc TestView.cc TestControl.cc Client.cc Songify.cc AlbumArray.cc Album.cc SongArray.cc Song.cc
+Header Files: defs.h TestView.h TestControl.h Client.h Songify.h AlbumArray.h Album.h SongArray.h Song.h
+
+Purpose of Files:
+	defs.h TestView.h TestControl.h main.cc TestView.cc TestControl.cc
+		To create an tester object files for the executable a2
+		
+	Client.h Songify.h AlbumArray.h Album.h SongArray.h Song.h Client.cc Songify.cc AlbumArray.cc Album.cc SongArray.cc Song.cc
+		To create the implementation for each of the classes required by the assignment
+
+Compile and Run Instructions:
+                              1. Open gnome-terminal
+                              2. Go to the directory containing the source files and header files
+                              3. type: "make"  to create output file a2
+                              4. type: "./a2" to run the program a2
+                              5. Use numeric commands described in prompt to run tests
+
