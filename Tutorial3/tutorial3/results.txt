@@ -1,0 +1,132 @@
+***************************************************************************
+* Unzipping *.zip
+***************************************************************************
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+Running: ./test2
+
+Reservation for someone on September 30, 2021 from 12:00 to 14:00
+Reservation for someone2 on September 30, 2021 from 11:00 to 13:00
+
+Reservations overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on September 30, 2021 from 11:00 to 13:00
+Reservation for someone2 on September 30, 2021 from 12:00 to 14:00
+
+Reservations overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on September 30, 2021 from 12:00 to 14:00
+Reservation for someone2 on September 30, 2021 from 11:00 to 12:00
+
+Reservations do not overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on September 30, 2021 from 11:00 to 12:00
+Reservation for someone2 on September 30, 2021 from 12:00 to 14:00
+
+Reservations do not overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on September 29, 2021 from 11:00 to 13:00
+Reservation for someone2 on September 30, 2021 from 12:00 to 14:00
+
+Reservations do not overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on October 30, 2021 from 11:00 to 13:00
+Reservation for someone2 on September 30, 2021 from 12:00 to 14:00
+
+Reservations do not overlap
+
+Successful overlap test
+
+Running: ./test2
+
+Reservation for someone on September 30, 2022 from 11:00 to 13:00
+Reservation for someone2 on September 30, 2021 from 12:00 to 14:00
+
+Reservations do not overlap
+
+Successful overlap test
+
+Running: ./test1
+
+Truck Name: TestTruck
+Truck GameType: Xbox
+Truck Capacity: 0
+Truck Vr: NOT PRESENT
+
+isMatch test successful
+
+Running: ./test1
+
+Truck Name: TestTruck
+Truck GameType: Playstation
+Truck Capacity: 0
+Truck Vr: NOT PRESENT
+
+isMatch test successful
+
+Running: ./test1
+
+Truck Name: TestTruck
+Truck GameType: Xbox
+Truck Capacity: 2
+Truck Vr: NOT PRESENT
+
+isMatch test successful
+
+Running: ./test1
+
+Truck Name: TestTruck
+Truck GameType: Xbox
+Truck Capacity: 2
+Truck Vr: NOT PRESENT
+
+isMatch test successful
+
+Running: ./test1
+
+Truck Name: TestTruck
+Truck GameType: Xbox
+Truck Capacity: 3
+Truck Vr: PRESENT
+
+isMatch test successful
+
+Running: ./test1
+
+Truck Name: TestTruck
+Truck GameType: Xbox
+Truck Capacity: 2
+Truck Vr: PRESENT
+
+isMatch test successful
+
+
+
+***************************************************************************
+* Mark: 26/26
+***************************************************************************
+

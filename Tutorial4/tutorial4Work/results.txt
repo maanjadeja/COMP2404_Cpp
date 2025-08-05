@@ -1,0 +1,92 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Testing stack object array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Artist: Sweet
+Title: Irene
+Lyrics
+Artist: Caroline
+Title: Bob
+Lyrics
+Artist: Babababa
+Title: Alice
+Lyrics
+
+'Sweet' found, 2 marks
+'Caroline' found, 2 marks
+'Babababa' found, 2 marks
+'Lyrics' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing stack pointer array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Artist: Song
+Title: Irene
+RCMP
+Artist: Title
+Title: Bob
+RCMP
+Artist: Here
+Title: Alice
+RCMP
+
+'Song' found, 2 marks
+'Title' found, 2 marks
+'Here' found, 2 marks
+'RCMP' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing heap object array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Artist: Sweet
+Title: Irene
+Lyrics
+Artist: Caroline
+Title: Bob
+Lyrics
+Artist: Babababa
+Title: Alice
+Lyrics
+
+'Sweet' found, 2 marks
+'Caroline' found, 2 marks
+'Babababa' found, 2 marks
+'Lyrics' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+Testing heap pointer array
+
+Executing: valgrind ./test
+Running:  ['valgrind', './test']
+Artist: Song
+Title: Irene
+RCMP
+Artist: Title
+Title: Bob
+RCMP
+Artist: Here
+Title: Alice
+RCMP
+
+'Song' found, 2 marks
+'Title' found, 2 marks
+'Here' found, 2 marks
+'RCMP' found, 2 marks
+'All heap blocks were freed -- no leaks are possible' found, 2 marks
+
+
+***************************************************************************
+* Mark: 40/40
+***************************************************************************
+
