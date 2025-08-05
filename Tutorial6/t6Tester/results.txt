@@ -1,0 +1,86 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Customer id test
+
+Executing: ./test
+ID: C4
+Name: Elise
+Rating: 0
+0th Ave and 0th AveC5 found, success!
+ID: C0
+Name: Abe
+Rating: 0
+0th Ave and 0th AveC1 found, success!
+ID: C1
+Name: Bae
+Rating: 0
+0th Ave and 0th AveC2 found, success!
+ID: C3
+Name: Deb
+Rating: 0
+0th Ave and 0th AveC4 found, success!
+ID: C2
+Name: Cedric
+Rating: 0
+0th Ave and 0th AveC3 found, success!
+
+Test passed
+
+Driver id test
+
+Executing: ./test
+ID: D4
+Name: Elise
+Rating: 0
+0th Ave and 0th AveD5 found, success!
+ID: D0
+Name: Abe
+Rating: 0
+0th Ave and 0th AveD1 found, success!
+ID: D1
+Name: Bae
+Rating: 0
+0th Ave and 0th AveD2 found, success!
+ID: D3
+Name: Deb
+Rating: 0
+0th Ave and 0th AveD4 found, success!
+ID: D2
+Name: Cedric
+Rating: 0
+0th Ave and 0th AveD3 found, success!
+
+Test passed
+
+Driver match test
+
+Executing: ./test
+Testing match (5, medium) to (5 medium)...
+Match successful, test passed!
+Testing match (3, medium) to (5 medium)...
+Match successful, test passed!
+Testing match (2, medium) to (5 medium)...
+Match not successful, test passed!
+Testing match (2, large) to (2 large)...
+Match successful, test passed!
+Testing match (5, large) to (2 large)...
+Match not successful, test passed!
+Testing match (2, small) to (2 large)...
+Match successful, test passed!
+Testing match (3, medium) to (4, small)...
+Match not successful, test passed!
+Testing match (5, large) to (5, medium)...
+Match not successful, test passed!
+
+Test passed
+
+
+***************************************************************************
+* Mark: 6/6
+***************************************************************************
+

@@ -1,0 +1,140 @@
+
+***************************************************************************
+* Compilation
+***************************************************************************
+Executing: make clean
+Executing: make all
+
+Testing Podcast class
+
+Executing: ./test
+theSong title: Song Title: 0
+SUCCESFULLY ADDED
+theSong title: Song Title: 1
+SUCCESFULLY ADDED
+theSong title: Song Title: 2
+SUCCESFULLY ADDED
+theSong title: Song Title: 3
+SUCCESFULLY ADDED
+theSong title: Song Title: 4
+SUCCESFULLY ADDED
+Artist: Irene
+Title: Album1
+Artist: Irene
+Title: Song Title: 0
+Artist: Irene
+Title: Song Title: 1
+Artist: Irene
+Title: Song Title: 2
+Artist: Irene
+Title: Song Title: 3
+Artist: Irene
+Title: Song Title: 4
+Artist: Irene
+Title: Song Title: 2
+Content: Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti. Nunc feugiat mi a tellus consequat imperdiet. Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus.
+
+
+Irene found, 2 marks
+Song Title: 3 found, 2 marks
+
+Testing Podcast destructor
+
+Executing: valgrind ./test
+theSong title: Song Title: 0
+SUCCESFULLY ADDED
+theSong title: Song Title: 1
+SUCCESFULLY ADDED
+theSong title: Song Title: 2
+SUCCESFULLY ADDED
+theSong title: Song Title: 3
+SUCCESFULLY ADDED
+theSong title: Song Title: 4
+SUCCESFULLY ADDED
+theSong title: Song Title: 5
+SUCCESFULLY ADDED
+theSong title: Song Title: 6
+SUCCESFULLY ADDED
+theSong title: Song Title: 7
+SUCCESFULLY ADDED
+theSong title: Song Title: 8
+SUCCESFULLY ADDED
+theSong title: Song Title: 9
+SUCCESFULLY ADDED
+theSong title: Song Title: 10
+SUCCESFULLY ADDED
+theSong title: Song Title: 11
+SUCCESFULLY ADDED
+theSong title: Song Title: 12
+SUCCESFULLY ADDED
+theSong title: Song Title: 13
+SUCCESFULLY ADDED
+theSong title: Song Title: 14
+SUCCESFULLY ADDED
+
+==2596== Memcheck, a memory error detector
+==2596== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==2596== Using Valgrind-3.15.0 and LibVEX; rerun with -h for copyright info
+==2596== Command: ./test
+==2596== 
+==2596== 
+==2596== HEAP SUMMARY:
+==2596==     in use at exit: 0 bytes in 0 blocks
+==2596==   total heap usage: 62 allocs, 62 frees, 100,804 bytes allocated
+==2596== 
+==2596== All heap blocks were freed -- no leaks are possible
+==2596== 
+==2596== For lists of detected and suppressed errors, rerun with: -s
+==2596== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)
+
+All heap blocks were freed -- no leaks are possible found, 2 marks
+
+Testing Podcast deep copy
+
+Executing: ./test
+theSong title: Song Title: 5
+SUCCESFULLY ADDED
+theSong title: Song Title: 6
+SUCCESFULLY ADDED
+theSong title: Song Title: 7
+SUCCESFULLY ADDED
+theSong title: Song Title: 8
+SUCCESFULLY ADDED
+theSong title: Song Title: 9
+SUCCESFULLY ADDED
+AFTER FOR LOOP PART!
+theSong title: Song Title: 5
+SUCCESFULLY ADDED
+theSong title: Song Title: 6
+SUCCESFULLY ADDED
+theSong title: Song Title: 7
+SUCCESFULLY ADDED
+theSong title: Song Title: 8
+SUCCESFULLY ADDED
+theSong title: Song Title: 9
+SUCCESFULLY ADDED
+Artist: Bob
+Title: Album2
+Artist: Bob
+Title: Song Title: 5
+Artist: Bob
+Title: Song Title: 6
+Artist: Bob
+Title: Song Title: 7
+Artist: Bob
+Title: Song Title: 8
+Artist: Bob
+Title: Song Title: 9
+  alb2->print(); PART!
+Artist: Bob
+Title: Song Title: 8
+Content: Vestibulum sapien. Proin quam. Etiam ultrices. Suspendisse in justo eu magna luctus suscipit. Sed lectus. Integer euismod lacus luctus magna. Quisque cursus, metus vitae pharetra auctor, sem massa mattis sem, at interdum magna augue eget diam. Vestibulu...
+
+Bob found, 2 marks
+Vestibulum sapien found, 2 marks
+
+
+***************************************************************************
+* Mark: 10/10
+***************************************************************************
+
